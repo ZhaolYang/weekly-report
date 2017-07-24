@@ -13,6 +13,11 @@
   }
 </script>
 
-<style>
-
+<style lang="stylus">
+  #editor
+    width: 300px
+    margin: 0 25px 0 0
+    border: 1px solid #ddd
+    border-radius: 10px
+    background-color: #fff
 </style>

@@ -19,6 +19,12 @@ export default {
 </script>
 
 <style lang="stylus">
+  *
+    box-sizing: border-box
   #app
-    color: red
+    display: flex
+    min-width: 998px
+    height: 100vh
+    background-color: #f5f5f5
+    padding 20px
 </style>
