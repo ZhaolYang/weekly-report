@@ -18,8 +18,7 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  
-}
+<style lang="stylus">
+  #app
+    color: red
 </style>
