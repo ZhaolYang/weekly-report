@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <editor></editor>
+    <preview></preview>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import editor from './components/editor'
+import preview from './components/preview'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    editor,
+    preview
   }
 }
 </script>
